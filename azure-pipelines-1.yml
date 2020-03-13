@@ -40,6 +40,6 @@ steps:
 - task: AzureWebApp@1
   inputs:
     appType: 'webApp'
-    azureSubscription: 'CoreJari'
-    appName: 'PipelineServiceConnection'
+    azureSubscription: 'PipelineServiceConnection'
+    appName: 'CoreJari'
     package: $(System.ArtifactsDirectory)/**/*.zip   
